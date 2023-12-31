@@ -22,5 +22,5 @@ urlpatterns = [
     path('selvi', admin.site.urls),
     path ('tss',views.tss,name='tss'),
     path ('',views.home,name='home'),
-    path ('raj',views.raj,name='raj'),
+  
 ]
